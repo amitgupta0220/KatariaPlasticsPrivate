@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "498129528174",
+    "project_id": "logistics-katariaplastics",
+    "storage_bucket": "logistics-katariaplastics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498129528174:android:26cf72eeb754e28057cd7f",
+        "android_client_info": {
+          "package_name": "com.KatariaPlastics.KPPL"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498129528174-7k7465039iluc473ngsbr6htv8hjo41o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.KatariaPlastics.KPPL",
+            "certificate_hash": "4ce76013a2d8f6529345550bb7c67b253e1419bf"
+          }
+        },
+        {
+          "client_id": "498129528174-hjdmn31ulufvvtsq8fmcjk8gn229sda3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.KatariaPlastics.KPPL",
+            "certificate_hash": "2662be267601548fa14336b3b3a628ee683872ac"
+          }
+        },
+        {
+          "client_id": "498129528174-u955ate2jcac3skulffsgo865hnlrntu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.KatariaPlastics.KPPL",
+            "certificate_hash": "97ef111362e11b1c8bfc58968e64ab3728033e4a"
+          }
+        },
+        {
+          "client_id": "498129528174-fg41la80r8r0df2kgusf23o71v657i8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL5dsZxqI9w3y8aE-lbZBuia6wf7SPqaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498129528174-fg41la80r8r0df2kgusf23o71v657i8h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
