@@ -1,0 +1,512 @@
+define(['dart_sdk', 'packages/flutter/src/widgets/widget_span.dart', 'packages/flutter/src/painting/box_decoration.dart', 'packages/flutter/src/painting/border_radius.dart', 'packages/flutter/src/rendering/layer.dart', 'packages/flutter/src/rendering/custom_paint.dart'], (function load__packages__fdottedline__fdottedline_dart(dart_sdk, packages__flutter__src__widgets__widget_span$46dart, packages__flutter__src__painting__box_decoration$46dart, packages__flutter__src__painting__border_radius$46dart, packages__flutter__src__rendering__layer$46dart, packages__flutter__src__rendering__custom_paint$46dart) {
+  'use strict';
+  const core = dart_sdk.core;
+  const ui = dart_sdk.ui;
+  const _interceptors = dart_sdk._interceptors;
+  const dart = dart_sdk.dart;
+  const dartx = dart_sdk.dartx;
+  const framework = packages__flutter__src__widgets__widget_span$46dart.src__widgets__framework;
+  const container = packages__flutter__src__widgets__widget_span$46dart.src__widgets__container;
+  const widget_inspector = packages__flutter__src__widgets__widget_span$46dart.src__widgets__widget_inspector;
+  const basic = packages__flutter__src__widgets__widget_span$46dart.src__widgets__basic;
+  const binding = packages__flutter__src__widgets__widget_span$46dart.src__widgets__binding;
+  const box_decoration = packages__flutter__src__painting__box_decoration$46dart.src__painting__box_decoration;
+  const border_radius = packages__flutter__src__painting__border_radius$46dart.src__painting__border_radius;
+  const box = packages__flutter__src__rendering__layer$46dart.src__rendering__box;
+  const custom_paint = packages__flutter__src__rendering__custom_paint$46dart.src__rendering__custom_paint;
+  var fdottedline = Object.create(dart.library);
+  var $add = dartx.add;
+  var $toInt = dartx.toInt;
+  dart._checkModuleNullSafetyMode(false);
+  var StatefulWidgetL = () => (StatefulWidgetL = dart.constFn(dart.legacy(framework.StatefulWidget)))();
+  var StateOfStatefulWidgetL = () => (StateOfStatefulWidgetL = dart.constFn(framework.State$(StatefulWidgetL())))();
+  var StateLOfStatefulWidgetL = () => (StateLOfStatefulWidgetL = dart.constFn(dart.legacy(StateOfStatefulWidgetL())))();
+  var GlobalKeyOfStateLOfStatefulWidgetL = () => (GlobalKeyOfStateLOfStatefulWidgetL = dart.constFn(framework.GlobalKey$(StateLOfStatefulWidgetL())))();
+  var _LocationL = () => (_LocationL = dart.constFn(dart.legacy(widget_inspector._Location)))();
+  var WidgetL = () => (WidgetL = dart.constFn(dart.legacy(framework.Widget)))();
+  var JSArrayOfWidgetL = () => (JSArrayOfWidgetL = dart.constFn(_interceptors.JSArray$(WidgetL())))();
+  var RenderBoxL = () => (RenderBoxL = dart.constFn(dart.legacy(box.RenderBox)))();
+  var VoidToNull = () => (VoidToNull = dart.constFn(dart.fnType(core.Null, [])))();
+  var DurationL = () => (DurationL = dart.constFn(dart.legacy(core.Duration)))();
+  var DurationLToNull = () => (DurationLToNull = dart.constFn(dart.fnType(core.Null, [DurationL()])))();
+  var _DottedLinePainterL = () => (_DottedLinePainterL = dart.constFn(dart.legacy(fdottedline._DottedLinePainter)))();
+  const CT = Object.create(null);
+  var L1 = "file:///C:/Users/Dell/AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/fdottedline-1.0.1/lib/fdottedline.dart";
+  var L0 = "package:fdottedline/fdottedline.dart";
+  dart.defineLazy(CT, {
+    get C0() {
+      return C0 = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4278190080.0
+      });
+    },
+    get C2() {
+      return C2 = dart.constList([], _LocationL());
+    },
+    get C1() {
+      return C1 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C2 || CT.C2,
+        [_Location_name]: null,
+        [_Location_column]: 91,
+        [_Location_line]: 113,
+        [_Location_file]: "file:///C:/Users/Dell/AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/fdottedline-1.0.1/lib/fdottedline.dart"
+      });
+    },
+    get C5() {
+      return C5 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "clipBehavior",
+        [_Location_column]: 9,
+        [_Location_line]: 118,
+        [_Location_file]: null
+      });
+    },
+    get C6() {
+      return C6 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "decoration",
+        [_Location_column]: 9,
+        [_Location_line]: 119,
+        [_Location_file]: null
+      });
+    },
+    get C7() {
+      return C7 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "key",
+        [_Location_column]: 9,
+        [_Location_line]: 131,
+        [_Location_file]: null
+      });
+    },
+    get C8() {
+      return C8 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 9,
+        [_Location_line]: 132,
+        [_Location_file]: null
+      });
+    },
+    get C4() {
+      return C4 = dart.constList([C5 || CT.C5, C6 || CT.C6, C7 || CT.C7, C8 || CT.C8], _LocationL());
+    },
+    get C3() {
+      return C3 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C4 || CT.C4,
+        [_Location_name]: null,
+        [_Location_column]: 20,
+        [_Location_line]: 117,
+        [_Location_file]: "file:///C:/Users/Dell/AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/fdottedline-1.0.1/lib/fdottedline.dart"
+      });
+    },
+    get C11() {
+      return C11 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "children",
+        [_Location_column]: 9,
+        [_Location_line]: 138,
+        [_Location_file]: null
+      });
+    },
+    get C10() {
+      return C10 = dart.constList([C11 || CT.C11], _LocationL());
+    },
+    get C9() {
+      return C9 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C10 || CT.C10,
+        [_Location_name]: null,
+        [_Location_column]: 14,
+        [_Location_line]: 137,
+        [_Location_file]: "file:///C:/Users/Dell/AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/fdottedline-1.0.1/lib/fdottedline.dart"
+      });
+    },
+    get C14() {
+      return C14 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "size",
+        [_Location_column]: 7,
+        [_Location_line]: 164,
+        [_Location_file]: null
+      });
+    },
+    get C15() {
+      return C15 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "foregroundPainter",
+        [_Location_column]: 7,
+        [_Location_line]: 166,
+        [_Location_file]: null
+      });
+    },
+    get C13() {
+      return C13 = dart.constList([C14 || CT.C14, C15 || CT.C15], _LocationL());
+    },
+    get C12() {
+      return C12 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C13 || CT.C13,
+        [_Location_name]: null,
+        [_Location_column]: 12,
+        [_Location_line]: 163,
+        [_Location_file]: "file:///C:/Users/Dell/AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/fdottedline-1.0.1/lib/fdottedline.dart"
+      });
+    }
+  }, false);
+  var leftTopCorner$ = dart.privateName(fdottedline, "FDottedLineCorner.leftTopCorner");
+  var rightTopCorner$ = dart.privateName(fdottedline, "FDottedLineCorner.rightTopCorner");
+  var rightBottomCorner$ = dart.privateName(fdottedline, "FDottedLineCorner.rightBottomCorner");
+  var leftBottomCorner$ = dart.privateName(fdottedline, "FDottedLineCorner.leftBottomCorner");
+  fdottedline.FDottedLineCorner = class FDottedLineCorner extends core.Object {
+    get leftTopCorner() {
+      return this[leftTopCorner$];
+    }
+    set leftTopCorner(value) {
+      super.leftTopCorner = value;
+    }
+    get rightTopCorner() {
+      return this[rightTopCorner$];
+    }
+    set rightTopCorner(value) {
+      super.rightTopCorner = value;
+    }
+    get rightBottomCorner() {
+      return this[rightBottomCorner$];
+    }
+    set rightBottomCorner(value) {
+      super.rightBottomCorner = value;
+    }
+    get leftBottomCorner() {
+      return this[leftBottomCorner$];
+    }
+    set leftBottomCorner(value) {
+      super.leftBottomCorner = value;
+    }
+  };
+  (fdottedline.FDottedLineCorner.new = function(opts) {
+    let leftTopCorner = opts && 'leftTopCorner' in opts ? opts.leftTopCorner : 0;
+    let rightTopCorner = opts && 'rightTopCorner' in opts ? opts.rightTopCorner : 0;
+    let rightBottomCorner = opts && 'rightBottomCorner' in opts ? opts.rightBottomCorner : 0;
+    let leftBottomCorner = opts && 'leftBottomCorner' in opts ? opts.leftBottomCorner : 0;
+    this[leftTopCorner$] = leftTopCorner;
+    this[rightTopCorner$] = rightTopCorner;
+    this[rightBottomCorner$] = rightBottomCorner;
+    this[leftBottomCorner$] = leftBottomCorner;
+    ;
+  }).prototype = fdottedline.FDottedLineCorner.prototype;
+  (fdottedline.FDottedLineCorner.all = function(radius) {
+    this[leftTopCorner$] = radius;
+    this[rightTopCorner$] = radius;
+    this[rightBottomCorner$] = radius;
+    this[leftBottomCorner$] = radius;
+    ;
+  }).prototype = fdottedline.FDottedLineCorner.prototype;
+  dart.addTypeTests(fdottedline.FDottedLineCorner);
+  dart.addTypeCaches(fdottedline.FDottedLineCorner);
+  dart.setLibraryUri(fdottedline.FDottedLineCorner, L0);
+  dart.setFieldSignature(fdottedline.FDottedLineCorner, () => ({
+    __proto__: dart.getFields(fdottedline.FDottedLineCorner.__proto__),
+    leftTopCorner: dart.finalFieldType(dart.legacy(core.double)),
+    rightTopCorner: dart.finalFieldType(dart.legacy(core.double)),
+    rightBottomCorner: dart.finalFieldType(dart.legacy(core.double)),
+    leftBottomCorner: dart.finalFieldType(dart.legacy(core.double))
+  }));
+  var Color_value = dart.privateName(ui, "Color.value");
+  var C0;
+  var color$ = dart.privateName(fdottedline, "FDottedLine.color");
+  var height$ = dart.privateName(fdottedline, "FDottedLine.height");
+  var width$ = dart.privateName(fdottedline, "FDottedLine.width");
+  var strokeWidth$ = dart.privateName(fdottedline, "FDottedLine.strokeWidth");
+  var dottedLength$ = dart.privateName(fdottedline, "FDottedLine.dottedLength");
+  var space$ = dart.privateName(fdottedline, "FDottedLine.space");
+  var corner$ = dart.privateName(fdottedline, "FDottedLine.corner");
+  var child$ = dart.privateName(fdottedline, "FDottedLine.child");
+  fdottedline.FDottedLine = class FDottedLine extends framework.StatefulWidget {
+    get color() {
+      return this[color$];
+    }
+    set color(value) {
+      super.color = value;
+    }
+    get height() {
+      return this[height$];
+    }
+    set height(value) {
+      super.height = value;
+    }
+    get width() {
+      return this[width$];
+    }
+    set width(value) {
+      super.width = value;
+    }
+    get strokeWidth() {
+      return this[strokeWidth$];
+    }
+    set strokeWidth(value) {
+      super.strokeWidth = value;
+    }
+    get dottedLength() {
+      return this[dottedLength$];
+    }
+    set dottedLength(value) {
+      super.dottedLength = value;
+    }
+    get space() {
+      return this[space$];
+    }
+    set space(value) {
+      super.space = value;
+    }
+    get corner() {
+      return this[corner$];
+    }
+    set corner(value) {
+      super.corner = value;
+    }
+    get child() {
+      return this[child$];
+    }
+    set child(value) {
+      super.child = value;
+    }
+    createState() {
+      return new fdottedline._FDottedLineState.new();
+    }
+  };
+  (fdottedline.FDottedLine.new = function(opts) {
+    let key = opts && 'key' in opts ? opts.key : null;
+    let color = opts && 'color' in opts ? opts.color : C0 || CT.C0;
+    let height = opts && 'height' in opts ? opts.height : null;
+    let width = opts && 'width' in opts ? opts.width : null;
+    let dottedLength = opts && 'dottedLength' in opts ? opts.dottedLength : 5;
+    let space = opts && 'space' in opts ? opts.space : 3;
+    let strokeWidth = opts && 'strokeWidth' in opts ? opts.strokeWidth : 1;
+    let corner = opts && 'corner' in opts ? opts.corner : null;
+    let child = opts && 'child' in opts ? opts.child : null;
+    let $36creationLocationd_0dea112b090073317d4 = opts && '$creationLocationd_0dea112b090073317d4' in opts ? opts.$creationLocationd_0dea112b090073317d4 : null;
+    this[color$] = color;
+    this[height$] = height;
+    this[width$] = width;
+    this[dottedLength$] = dottedLength;
+    this[space$] = space;
+    this[strokeWidth$] = strokeWidth;
+    this[corner$] = corner;
+    this[child$] = child;
+    fdottedline.FDottedLine.__proto__.new.call(this, {key: key, $creationLocationd_0dea112b090073317d4: $36creationLocationd_0dea112b090073317d4});
+    if (!(this.width != null || this.height != null || this.child != null)) dart.assertFailed(null, L1, 99, 12, "width != null || height != null || child != null");
+  }).prototype = fdottedline.FDottedLine.prototype;
+  dart.addTypeTests(fdottedline.FDottedLine);
+  dart.addTypeCaches(fdottedline.FDottedLine);
+  dart.setMethodSignature(fdottedline.FDottedLine, () => ({
+    __proto__: dart.getMethods(fdottedline.FDottedLine.__proto__),
+    createState: dart.fnType(dart.legacy(fdottedline._FDottedLineState), [])
+  }));
+  dart.setLibraryUri(fdottedline.FDottedLine, L0);
+  dart.setFieldSignature(fdottedline.FDottedLine, () => ({
+    __proto__: dart.getFields(fdottedline.FDottedLine.__proto__),
+    color: dart.finalFieldType(dart.legacy(ui.Color)),
+    height: dart.finalFieldType(dart.legacy(core.double)),
+    width: dart.finalFieldType(dart.legacy(core.double)),
+    strokeWidth: dart.finalFieldType(dart.legacy(core.double)),
+    dottedLength: dart.finalFieldType(dart.legacy(core.double)),
+    space: dart.finalFieldType(dart.legacy(core.double)),
+    corner: dart.finalFieldType(dart.legacy(fdottedline.FDottedLineCorner)),
+    child: dart.finalFieldType(dart.legacy(framework.Widget))
+  }));
+  var C2;
+  var _Location_parameterLocations = dart.privateName(widget_inspector, "_Location.parameterLocations");
+  var _Location_name = dart.privateName(widget_inspector, "_Location.name");
+  var _Location_column = dart.privateName(widget_inspector, "_Location.column");
+  var _Location_line = dart.privateName(widget_inspector, "_Location.line");
+  var _Location_file = dart.privateName(widget_inspector, "_Location.file");
+  var C1;
+  var C5;
+  var C6;
+  var C7;
+  var C8;
+  var C4;
+  var C3;
+  var C11;
+  var C10;
+  var C9;
+  var C14;
+  var C15;
+  var C13;
+  var C12;
+  fdottedline._FDottedLineState = class _FDottedLineState extends framework.State$(dart.legacy(fdottedline.FDottedLine)) {
+    build(context) {
+      if (dart.test(fdottedline._isEmpty(this.widget.width)) && dart.test(fdottedline._isEmpty(this.widget.height)) && this.widget.child == null) return new container.Container.new({$creationLocationd_0dea112b090073317d4: C1 || CT.C1});
+      if (this.widget.child != null) {
+        this.tryToGetChildSize();
+        let children = JSArrayOfWidgetL().of([]);
+        children[$add](new container.Container.new({clipBehavior: this.widget.corner == null ? ui.Clip.none : ui.Clip.antiAlias, decoration: new box_decoration.BoxDecoration.new({borderRadius: new border_radius.BorderRadius.only({topLeft: new ui.Radius.circular(this.widget.corner != null ? this.widget.corner.leftTopCorner : 0.0), topRight: new ui.Radius.circular(this.widget.corner != null ? this.widget.corner.rightTopCorner : 0.0), bottomLeft: new ui.Radius.circular(this.widget.corner != null ? this.widget.corner.leftBottomCorner : 0.0), bottomRight: new ui.Radius.circular(this.widget.corner != null ? this.widget.corner.rightBottomCorner : 0.0)})}), key: this.childKey, child: this.widget.child, $creationLocationd_0dea112b090073317d4: C3 || CT.C3}));
+        if (this.childWidth != null && this.childHeight != null) {
+          children[$add](this.dashPath({width: this.childWidth, height: this.childHeight}));
+        }
+        return new basic.Stack.new({children: children, $creationLocationd_0dea112b090073317d4: C9 || CT.C9});
+      } else {
+        return this.dashPath({width: this.widget.width, height: this.widget.height});
+      }
+    }
+    tryToGetChildSize() {
+      binding.WidgetsBinding.instance.addPostFrameCallback(dart.fn(timeStamp => {
+        try {
+          let box = RenderBoxL().as(this.childKey.currentContext.findRenderObject());
+          let tempWidth = box.size.width;
+          let tempHeight = box.size.height;
+          let needUpdate = tempWidth != this.childWidth || tempHeight != this.childHeight;
+          if (needUpdate) {
+            this.setState(dart.fn(() => {
+              this.childWidth = tempWidth;
+              this.childHeight = tempHeight;
+            }, VoidToNull()));
+          }
+        } catch (e$) {
+          let e = dart.getThrown(e$);
+          let stack = dart.stackTrace(e$);
+        }
+      }, DurationLToNull()));
+    }
+    dashPath(opts) {
+      let t1;
+      let width = opts && 'width' in opts ? opts.width : null;
+      let height = opts && 'height' in opts ? opts.height : null;
+      return new basic.CustomPaint.new({size: new ui.Size.new(dart.test(fdottedline._isEmpty(width)) ? this.widget.strokeWidth : width, dart.test(fdottedline._isEmpty(height)) ? this.widget.strokeWidth : height), foregroundPainter: (t1 = new fdottedline._DottedLinePainter.new(), (() => {
+          t1.color = this.widget.color;
+          t1.dottedLength = this.widget.dottedLength;
+          t1.space = this.widget.space;
+          t1.strokeWidth = this.widget.strokeWidth;
+          t1.corner = this.widget.corner;
+          t1.isShape = !dart.test(fdottedline._isEmpty(height)) && !dart.test(fdottedline._isEmpty(width));
+          return t1;
+        })()), $creationLocationd_0dea112b090073317d4: C12 || CT.C12});
+    }
+  };
+  (fdottedline._FDottedLineState.new = function() {
+    this.childWidth = null;
+    this.childHeight = null;
+    this.childKey = GlobalKeyOfStateLOfStatefulWidgetL().new();
+    fdottedline._FDottedLineState.__proto__.new.call(this);
+    ;
+  }).prototype = fdottedline._FDottedLineState.prototype;
+  dart.addTypeTests(fdottedline._FDottedLineState);
+  dart.addTypeCaches(fdottedline._FDottedLineState);
+  dart.setMethodSignature(fdottedline._FDottedLineState, () => ({
+    __proto__: dart.getMethods(fdottedline._FDottedLineState.__proto__),
+    build: dart.fnType(dart.legacy(framework.Widget), [dart.legacy(framework.BuildContext)]),
+    tryToGetChildSize: dart.fnType(dart.void, []),
+    dashPath: dart.fnType(dart.legacy(basic.CustomPaint), [], {height: dart.legacy(core.double), width: dart.legacy(core.double)}, {})
+  }));
+  dart.setLibraryUri(fdottedline._FDottedLineState, L0);
+  dart.setFieldSignature(fdottedline._FDottedLineState, () => ({
+    __proto__: dart.getFields(fdottedline._FDottedLineState.__proto__),
+    childWidth: dart.fieldType(dart.legacy(core.double)),
+    childHeight: dart.fieldType(dart.legacy(core.double)),
+    childKey: dart.fieldType(dart.legacy(framework.GlobalKey$(dart.legacy(framework.State$(dart.legacy(framework.StatefulWidget))))))
+  }));
+  fdottedline._DottedLinePainter = class _DottedLinePainter extends custom_paint.CustomPainter {
+    paint(canvas, size) {
+      let t1;
+      let isHorizontal = dart.notNull(size.width) > dart.notNull(size.height);
+      let paint = (t1 = ui.Paint.new(), (() => {
+        t1.isAntiAlias = true;
+        t1.filterQuality = ui.FilterQuality.high;
+        t1.color = this.color;
+        t1.style = ui.PaintingStyle.stroke;
+        t1.strokeWidth = this.strokeWidth;
+        return t1;
+      })());
+      if (!dart.test(this.isShape)) {
+        let length = isHorizontal ? size.width : size.height;
+        let count = dart.notNull(length) / (dart.notNull(this.dottedLength) + dart.notNull(this.space));
+        if (count < 2.0) return;
+        let startOffset = new ui.Offset.new(0.0, 0.0);
+        for (let i = 0; i < count[$toInt](); i = i + 1) {
+          canvas.drawLine(startOffset, startOffset.translate(isHorizontal ? this.dottedLength : 0.0, isHorizontal ? 0.0 : this.dottedLength), paint);
+          startOffset = startOffset.translate(isHorizontal ? dart.notNull(this.dottedLength) + dart.notNull(this.space) : 0.0, isHorizontal ? 0.0 : dart.notNull(this.dottedLength) + dart.notNull(this.space));
+        }
+      } else {
+        let path = ui.Path.new();
+        path.addRRect(new ui.RRect.fromLTRBAndCorners(0.0, 0.0, size.width, size.height, {topLeft: new ui.Radius.circular(this.corner != null ? this.corner.leftTopCorner : 0.0), topRight: new ui.Radius.circular(this.corner != null ? this.corner.rightTopCorner : 0.0), bottomLeft: new ui.Radius.circular(this.corner != null ? this.corner.leftBottomCorner : 0.0), bottomRight: new ui.Radius.circular(this.corner != null ? this.corner.rightBottomCorner : 0.0)}));
+        let draw = this.buildDashPath(path, this.dottedLength, this.space);
+        canvas.drawPath(draw, paint);
+      }
+    }
+    buildDashPath(path, dottedLength, space) {
+      let r = ui.Path.new();
+      for (let metric of path.computeMetrics()) {
+        let start = 0.0;
+        while (start < dart.notNull(metric.length)) {
+          let end = start + dart.notNull(dottedLength);
+          r.addPath(metric.extractPath(start, end), ui.Offset.zero);
+          start = end + dart.notNull(space);
+        }
+      }
+      return r;
+    }
+    shouldRepaint(oldDelegate) {
+      _DottedLinePainterL().as(oldDelegate);
+      return true;
+    }
+  };
+  (fdottedline._DottedLinePainter.new = function() {
+    this.color = null;
+    this.dottedLength = null;
+    this.space = null;
+    this.strokeWidth = null;
+    this.isShape = null;
+    this.corner = null;
+    this.topLeft = ui.Radius.zero;
+    this.topRight = ui.Radius.zero;
+    this.bottomRight = ui.Radius.zero;
+    this.bottomLeft = ui.Radius.zero;
+    fdottedline._DottedLinePainter.__proto__.new.call(this);
+    ;
+  }).prototype = fdottedline._DottedLinePainter.prototype;
+  dart.addTypeTests(fdottedline._DottedLinePainter);
+  dart.addTypeCaches(fdottedline._DottedLinePainter);
+  dart.setMethodSignature(fdottedline._DottedLinePainter, () => ({
+    __proto__: dart.getMethods(fdottedline._DottedLinePainter.__proto__),
+    paint: dart.fnType(dart.void, [dart.legacy(ui.Canvas), dart.legacy(ui.Size)]),
+    buildDashPath: dart.fnType(dart.legacy(ui.Path), [dart.legacy(ui.Path), dart.legacy(core.double), dart.legacy(core.double)]),
+    shouldRepaint: dart.fnType(dart.legacy(core.bool), [dart.legacy(core.Object)])
+  }));
+  dart.setLibraryUri(fdottedline._DottedLinePainter, L0);
+  dart.setFieldSignature(fdottedline._DottedLinePainter, () => ({
+    __proto__: dart.getFields(fdottedline._DottedLinePainter.__proto__),
+    color: dart.fieldType(dart.legacy(ui.Color)),
+    dottedLength: dart.fieldType(dart.legacy(core.double)),
+    space: dart.fieldType(dart.legacy(core.double)),
+    strokeWidth: dart.fieldType(dart.legacy(core.double)),
+    isShape: dart.fieldType(dart.legacy(core.bool)),
+    corner: dart.fieldType(dart.legacy(fdottedline.FDottedLineCorner)),
+    topLeft: dart.fieldType(dart.legacy(ui.Radius)),
+    topRight: dart.fieldType(dart.legacy(ui.Radius)),
+    bottomRight: dart.fieldType(dart.legacy(ui.Radius)),
+    bottomLeft: dart.fieldType(dart.legacy(ui.Radius))
+  }));
+  fdottedline._isEmpty = function _isEmpty(d) {
+    return d == null || d === 0.0;
+  };
+  dart.trackLibraries("packages/fdottedline/fdottedline.dart", {
+    "package:fdottedline/fdottedline.dart": fdottedline
+  }, {
+  }, '{"version":3,"sourceRoot":"","sources":["fdottedline.dart"],"names":[],"mappings":"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","file":"../../../../../../../../../../../D:/packages/fdottedline/fdottedline.dart.lib.js"}');
+  // Exports:
+  return {
+    fdottedline: fdottedline
+  };
+}));
+
+//# sourceMappingURL=fdottedline.dart.lib.js.map
